@@ -1,10 +1,6 @@
-<a name="readme-top"></a>
-
 <!-- PROJECT LOGO -->
-<br />
 <div align="center">
   <h1 align="center">VID U</h1>
-
   <p align="center">
     A Video Streaming Platform
     <br />
@@ -13,80 +9,60 @@
   </p>
 </div>
 
-
-
 <!-- TABLE OF CONTENTS -->
 <details>
   <summary>Table of Contents</summary>
   <ol>
-    <li>
-      <a href="#about-the-project">About The Project</a>
-      <ul>
-        <li><a href="#built-with">Built With</a></li>
-      </ul>
-    </li>
-    <li>
-      <a href="#getting-started">Getting Started</a>
-      <ul>
-        <li><a href="#prerequisites">Prerequisites</a></li>
-      </ul>
-    </li>
+    <li><a href="#about-the-project">About The Project</a></li>
+    <li><a href="#built-with">Built With</a></li>
+    <li><a href="#getting-started">Getting Started</a></li>
     <li><a href="#usage">Usage</a></li>
+    <li><a href="#authors">Authors</a></li>
+    <li><a href="#acknowledgments">Acknowledgments</a></li>
+    <li><a href="#license">License</a></li>
   </ol>
 </details>
-
-<br>
 
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-<img src="./HomeScreenshot.png" alt="image" width="450" height="auto">
+![Screenshot](HomeScreenshot.png)
 
-
-VID U is a video platfrom were a selection of six videos can be viewed
-
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
+**VID U** is a video platform where users can view a selection of six videos.
 
 ### Built With
 
-This section should list any major frameworks/libraries used to bootstrap your project. Leave any add-ons/plugins for the acknowledgements section. Here are a few examples.
+This project is built using the following technologies:
 
 - Node.js
 - JSON
 - EJS
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
-
 <!-- GETTING STARTED -->
 ## Getting Started
 
-
 ### Prerequisites
 
-List of modules you need: 
+Before you begin, ensure you have the following modules installed:
 
-  ```sh
-  npm install express --save
-  ```
-   ```sh
-  npm install ejs
-  ```
+```sh
+npm install express --save
+npm install ejs
+```
+<!-- USAGE -->
+## Usage
+### To use VID U, follow these steps:
 
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
+- Clone the repository: git clone https://github.com/pablosanch423/JSONproject.git
+- Install the required dependencies as mentioned in the Prerequisites section.
+- Run the application: node app.js
+- Visit http://localhost:3000 in your web browser to access VID U.
+<!-- AUTHORS -->
+## Authors
+Pablo - Westmec Student.
+<!-- ACKNOWLEDGMENTS -->
+## Acknowledgments
+Thank you Ms.Kaur
 <!-- LICENSE -->
 ## License
-
-Distributed under the MIT License.
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
-
+This project is distributed under the MIT License.
