@@ -1,0 +1,50 @@
+[
+  {
+    "id": 1,
+    "vidName": "What is Express.JS?",
+    "vidBio": "This video will describe what Express.JS is!",
+    "vidDate": "01/02/2022",
+    "vidImg": "WhatisExpress.jpg",
+    "vid": "WhatisExpress.mp4"
+  },
+  {
+    "id": 2,
+    "vidName": "What is Node.JS?",
+    "vidBio": "This video will describe what Node.JS is!",
+    "vidDate": "01/02/2022",
+    "vidImg": "WhatisNode.jpg",
+    "vid": "WhatisNode.mp4"
+  },
+  {
+    "id": 3,
+    "vidName": "JavaScript Fundamentals: Best Practices",
+    "vidBio": "This video will show you javascript best practices",
+    "vidDate": "01/02/2022",
+    "vidImg": "JavascriptBestPractices.jpg",
+    "vid": "JavaScriptPractices.mp4"
+  },
+  {
+    "id": 4,
+    "vidName": "React.JS Basics",
+    "vidBio": "This video will show you react basics!",
+    "vidDate": "01/02/2022",
+    "vidImg": "ReactBasics.jpg",
+    "vid": "ReactBasics.mp4"
+  },
+  {
+    "id" : 5,
+    "vidName" : "Who's that pokemon!", 
+    "vidBio": "You have been warned.",
+    "vidDate" : "01/02/2022", 
+    "vidImg" : "whosthatpokemon.jpg",
+    "vid" : "whosthatpokemon.mp4"
+  },
+  {
+    "id" : 6,
+    "vidName" : "How to Code Everyday",
+    "vidBio" : "This video will show you how to code everyday",
+    "vidDate" : "01/02/2022", 
+    "vidImg" : "HowToCodeEveryday.jpg",
+    "vid" : "HowToCodeEveryday.mp4"
+  }
+]

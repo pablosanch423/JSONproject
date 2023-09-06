@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>VidU</title>
+    <link rel="stylesheet" href="/css/stylesheet.css" />
+  </head>
+  <body>
+    <header>
+      <a href="/" class="nav-link" target="_blank"
+        ><h1>Vid<span class="logo-U">U</span></h1></a
+      >
+
+      <div style="display: flex; justify-content: center; align-items: center">
+        <a href="/" class="nav-link" target="_blank">Home</a>
+      </div>
+    </header>
+
+    <div class="video-container">
+      <% videos.forEach(video => { %>
+      <div class="video-body" style="width: 75%">
+        <a
+        target="_blank"
+          href="/video/<%= video.id %>"
+          style="
+            width: max-content;
+            height: 100%;
+            background-color: transparent;
+          "
+        >
+          <img
+            class="video-image"
+            height="170"
+            src="/images/<%= video.vidImg %>"
+          />
+        </a>
+        <div class="vid-details">
+          <a
+            href="/video/<%= video.id %>"
+            style="width: 100%; height: 100%; background-color: transparent"
+          >
+            <p class="vidTitle"><%= video.vidName %></p>
+          </a>
+          <p class="vidBio"><%= video.vidBio %></p>
+          <p class="vidDate"><%= video.vidDate %></p>
+        </div>
+      </div>
+      <% }) %>
+    </div>
+  </body>
+</html>

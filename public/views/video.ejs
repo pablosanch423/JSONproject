@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>VidU - <%= video.vidName %></title>
+    <link rel="stylesheet" href="/css/stylesheet.css" />
+  </head>
+  <body>
+    <header>
+      <a href="/" class="nav-link"
+        ><h1>Vid<span class="logo-U">U</span></h1></a
+      >
+
+      <a href="/" class="nav-link">Home</a>
+    </header>
+
+    <main style="margin-top: 2vh; display: flex; width: 100%">
+      <div class="video-player-container" style="width: 60%">
+        <video
+          src="/videos/<%= video.vid %>"
+          controls
+          width="800"
+          height="450"
+          style="margin-left: 10rem; background-color: black;"
+          poster="/images/<%= video.vidImg %>"
+        ></video>
+        
+        <div style="margin-left: 10rem; margin-top: 3vh;">
+            <h2><%= video.vidName %></h2>
+            <p><%= video.vidDate %></p>
+            <p><%= video.vidBio %></p>
+        </div>
+        
+      </div>
+      <div
+        style="
+          display: grid;
+          width: 30%;
+          height: fit-content;
+          grid-template-columns: 1fr;
+        "
+      >
+        <div class="videos-container">
+          <% randomNumbers.forEach(num => { %>
+          <div class="ran-video-body bg-color-dark">
+            <a href="/video/<%= videos[num].id %>" class="bg-color-dark">
+                <img src="/images/<%= videos[num].vidImg %>" class="ran-video-img bg-color-dark">
+            <p style="font-weight: 700; padding: 0.5rem;" class="bg-color-dark"><%= videos[num].vidName %></p>
+            </a>
+            
+          </div>
+          <% }) %>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>

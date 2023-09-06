@@ -1,0 +1,108 @@
+body, *{ 
+    margin: 0;
+    padding: 0;
+    background-color: #F7F0F0;
+    overflow-x: hidden;
+}
+
+header{
+    display: flex;
+    flex-flow: row;
+    align-items: center;
+    justify-content: space-between;
+    height: 10vh;
+    padding-inline: 10rem;
+    width: 75%;
+}
+
+h1{
+    color: #484349;
+}
+
+.logo-U{
+    color: #109648 !important; 
+}
+
+.nav-link{
+    color: #484349;
+    text-decoration: none;
+    font-weight: 700;
+}
+
+.video-container{
+    margin-top: 10vh;
+    display: grid;
+    justify-content: flex-start;
+    align-items:center;
+    padding-inline: 10rem;
+
+    row-gap: 2rem;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.video-body{
+    width: max-content;
+    display: flex;
+    flex-flow: column wrap;
+    background-color: #484349;
+    padding: 0.5rem;
+
+    border-radius: 5px;
+}
+
+.video-image{
+    border-radius: 5px;
+}
+
+
+
+.vid-details{
+    padding-top: 1rem;
+    background-color: transparent;
+}
+
+.vidTitle, .vidBio, .vidDate{
+    background-color: #484349;
+    color: #F7F0F0;
+    font-weight: 700;
+}
+
+.vidBio{
+    word-wrap: break-word;
+    width: 95%;
+}
+
+a.vidTitle:hover{
+    cursor: pointer;
+}
+
+.videos-container{
+    width: 75%;
+    height: 85vh;
+    margin-left: 6rem;
+
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 1rem;
+
+    overflow-y: hidden;
+}
+
+.ran-video-body{
+    width: 100%;
+     overflow-y: hidden;
+     background-color: #484349;
+}
+
+.ran-video-img{
+    width: 100%;
+     overflow-y: hidden;
+    background-color: #484349;
+}
+
+.bg-color-dark{
+    background-color: #484349;
+    color: #F7F0F0;
+    text-decoration: none;
+}
+
