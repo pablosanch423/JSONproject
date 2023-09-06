@@ -55,7 +55,7 @@ npm install ejs
 
 - Clone the repository: git clone https://github.com/pablosanch423/JSONproject.git
 - Install the required dependencies as mentioned in the Prerequisites section.
-- Run the application: node app.js
+- Run the application: node index.js
 - Visit http://localhost:3000 in your web browser to access VID U.
 <!-- AUTHORS -->
 ## Authors
